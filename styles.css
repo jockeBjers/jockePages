@@ -1,7 +1,8 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
 }
+
 body {
     font-family: Roboto, 'Helvetica Neue', sans-serif;
     display: flex;
@@ -10,7 +11,85 @@ body {
     margin: 0;
 }
 
+.main-page {
+    display: flex;
+    display: row;
+
+}
+
+.side-panel {
+    display: flex;
+    flex-direction: column;
+    background-image: url(images/jocke.png);
+    box-shadow: 0px 0px 32px 3px #000000;
+    width: 400px;
+    gap: 420px;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.transparent-bar {
+    margin-top: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    font-weight: bold;
+    padding: 12px;
+    width: 376px;
+    height: 40px;
+    text-align: center;
+    
+}
+.side-panel-info{
+    color: white;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    height:400px;
+    width: 250px;
+    line-height: 1.8;
+    
+}
+
+
+.main-panel {
+    height: 100vh;
+    margin: 100px;
+}
+
 .header {
+    display: flex;
+    background-color: #f8fa6b;
+    font-size: 18px;
+    color: #355c30;
+    margin: 0px;
+    padding: 30px;
+    margin-top: 0px;
+    justify-content: center;
+}
+
+button {
+    height: 350px;
+    width: 350px;
+
+}
+
+#etch-button {
+    background-image: url('images/etcha.png');
+    background-size: 400px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#rock-button {
+    background-image: url('images/rock.png');
+    background-size: 450px;
+    background-position: center;
+
+}
+
+
+.footer {
     display: flex;
     background-color: #f8fa6b;
     font-size: 18px;
