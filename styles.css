@@ -9,12 +9,29 @@ body {
     flex-direction: column;
     min-height: 100vh;
     margin: 0;
+    background-image: url(images/space.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:contain;
+    background-position: right;
+}
+
+.header {
+    display: flex;
+    background-color: #56397e;
+    margin: 0px;
+    padding: 30px;
+    margin-top: 0px;
+    justify-content: center;  
+}
+.header h1{
+    font-size: 58px;
+    color: rgb(0, 0, 0);
 }
 
 .main-page {
     display: flex;
     display: row;
-
 }
 
 .side-panel {
@@ -40,6 +57,7 @@ body {
     text-align: center;
     
 }
+
 .side-panel-info{
     color: white;
     font-weight: bold;
@@ -47,31 +65,25 @@ body {
     padding: 20px;
     height:400px;
     width: 250px;
-    line-height: 1.8;
-    
+    line-height: 1.8; 
 }
-
 
 .main-panel {
     height: 100vh;
     margin: 100px;
 }
 
-.header {
-    display: flex;
-    background-color: #f8fa6b;
-    font-size: 18px;
-    color: #355c30;
-    margin: 0px;
-    padding: 30px;
-    margin-top: 0px;
-    justify-content: center;
-}
-
 button {
     height: 350px;
     width: 350px;
 
+}
+
+button:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+    box-shadow: 0 0 20px rgba(228, 92, 255, 0.8);
+    transition: box-shadow 0.3s ease;
 }
 
 #etch-button {
@@ -88,10 +100,9 @@ button {
 
 }
 
-
 .footer {
     display: flex;
-    background-color: #f8fa6b;
+    background-color:#56397e;
     font-size: 18px;
     color: #355c30;
     margin: 0px;
@@ -99,3 +110,24 @@ button {
     margin-top: 0px;
     justify-content: center;
 }
+
+a{
+    font-size: 40px;
+    font-weight: 800;
+}
+
+a:link {
+    color: rgb(0, 0, 0);
+  }
+  
+  a:visited {
+    color: rgb(0, 0, 0);
+  }
+  
+  a:hover {
+    color: rgb(187, 56, 121);
+  }
+  
+  a:active {
+    color: rgb(100, 59, 155);
+  }

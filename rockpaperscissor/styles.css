@@ -140,6 +140,26 @@ p {
     border-radius: 5%;
     align-self: flex-start;
 }
+.bottom #main-page {
+    color: rgb(211, 206, 206);
+    background: rgb(93, 101, 110);
+    font-size: 15px;
+    font-weight: bold;
+    padding:10px;
+    border-radius: 5%;
+    align-self: flex-start;
+}
+
+#main-page:hover {
+    background-color: rgb(0, 0, 0);
+    transition: 0.5s;
+}
+
+#main-page:active {
+    background-color: rgb(0, 0, 0);
+    transition: 0s;
+}
+
 
 #reset:hover {
     background-color: rgb(0, 0, 0);
