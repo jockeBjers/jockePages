@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #fad0ad;
+}
+
+.case {
+    background: rgb(255, 228, 78);
+    border: 2px black solid;
+    width: 350px;
+    height: 530px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5%;
+    padding-top: 20px;
+}
+
+p {
+    font-size: 33px;
+}
+
+.container {
+    background: rgb(255, 255, 255);
+    font-size: 20px;
+    border: 3px black solid;
+    padding: 10px;
+    width: 300px;
+    height: 250px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.score{
+    display: flex;
+    align-items: end;
+    font-size: 35px;
+}
+.containerTwo{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 20px;
+}
+.emoji-player{
+   text-align: center;
+   font-size: 70px;
+}
+
+.emoji-computer{
+   text-align: center;
+    font-size: 70px;    
+ }
+.emoji-text{
+   display: flex;
+   justify-content: center;
+   font-size: 15px;
+}
+
+.choice {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    gap: 25px;
+}
+
+.choices{
+    font-size: 50px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+#rock {
+    background-color: #f85e5e;
+}
+
+#rock:hover {
+    background-color: rgb(180, 24, 24);
+    transition: 0.5s;
+}
+
+#rock:active {
+    background-color: #6d1313;
+    transition: 0s;
+}
+
+#paper {
+    background-color: #70f556;
+}
+
+#paper:hover {
+    background-color: rgb(62, 129, 50);
+    transition: 0.5s;
+}
+
+#paper:active {
+    background-color: rgb(17, 48, 11);
+    transition: 0s;
+}
+
+#scissor {
+    background: #64a4f8;
+}
+
+#scissor:hover {
+    background-color: rgb(45, 88, 145);
+    transition: 0.5s;
+}
+
+#scissor:active {
+    background-color: rgb(22, 48, 82);
+    transition: 0s;
+}
+
+.bottom{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 30px;
+    width: 300px;
+}
+
+.bottom #reset {
+    color: rgb(211, 206, 206);
+    background: rgb(93, 101, 110);
+    font-size: 15px;
+    font-weight: bold;
+    padding:10px;
+    border-radius: 5%;
+    align-self: flex-start;
+}
+
+#reset:hover {
+    background-color: rgb(0, 0, 0);
+    transition: 0.5s;
+}
+
+#reset:active {
+    background-color: rgb(0, 0, 0);
+    transition: 0s;
+}
+

@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Roboto, 'Helvetica Neue', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background: rgb(120, 120, 194);
+}
+/* The pickr library settings*/
+.pcr-app {
+    position: relative !important;
+    top: 0 !important;
+    left: 0 !important;
+    transform: none !important;
+    z-index: 10;
+    width: 400px !important;
+    max-width: 400px !important;
+    margin: 0 auto;
+    background-color: rgb(76, 76, 175) !important;
+    border: 2px solid black;
+    box-sizing: border-box;
+}
+
+.pcr-button {
+    display: none !important;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 70px;
+    background: linear-gradient(to right, #1c1c99, #000000);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.buttons {
+    background-color: rgb(76, 76, 175);
+    border: 2px solid black;
+    padding-inline: 20px;
+    padding: 8px;
+    width: 400px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    flex-shrink: 1;
+    gap: 15px;
+    box-sizing: border-box;
+}
+
+#input {
+    padding-left: 4px;
+    width: 40px;
+    font-size: 20px;
+    background-color: rgb(149, 149, 236);
+    ;
+    border-left: none;
+}
+
+.change-grid {
+    border-top-right-radius: 0%;
+    border-bottom-right-radius: 0%;
+}
+
+.grid-row {
+    display: flex;
+}
+
+button {
+    font-size: 16px;
+    padding: 8px;
+    background-color: rgb(149, 149, 236);
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: rgb(101, 101, 235);
+    transition: 0.5s;
+}
+
+button:active {
+    background-color: #1c1c99;
+    transition: 0s;
+}
+
+.container {
+    border: 2px solid black;
+    border-top: none;
+    width: 400px;
+    height: 400px;
+    box-sizing: border-box;
+}
+
+.div {
+    display: flex;
+}
+
+.box {
+    background-color: #e9cebe;
+    box-sizing: border-box;
+    border: 1px solid #dd976f;
+}
+
+.box.no-border {
+    border: none;
+}
+
+.row {
+    display: flex;
+}

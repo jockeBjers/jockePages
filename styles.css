@@ -1,0 +1,22 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    font-family: Roboto, 'Helvetica Neue', sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    background-color: #f8fa6b;
+    font-size: 18px;
+    color: #355c30;
+    margin: 0px;
+    padding: 30px;
+    margin-top: 0px;
+    justify-content: center;
+}
